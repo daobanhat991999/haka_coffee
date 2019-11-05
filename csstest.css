@@ -1,0 +1,23 @@
+.top{
+    background-color: chocolate;
+    height: 1rem;
+}
+.lefttopheader{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 4rem;
+    display: inline-block;
+}
+.righttopheader{
+    float: right;
+    padding-top: 1rem;
+}
+li{
+    list-style-type: none;
+}
+.logo{
+    float: center;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
