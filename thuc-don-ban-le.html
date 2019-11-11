@@ -5,115 +5,251 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>bán lẻ</a></title>
+    <title>bán lẻ</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="de_an_midx.css">
 </head>
 
 <body>
-    <div class="full_sceen">
-        <div class="container-fluid" style="background-color: chocolate;height: 1.5rem;"></div>
+    <div class="container-fluid" style="background-color: chocolate;height: 1rem;"></div>
 
-        <div class="container-fluid header img-responsive bg-dark" style="padding-top: auto">
-            <div class="row float-right" style="padding-right: 10rem;">
-                <div style="padding-right: 1rem;">
-                    <a href="#"><i class="fas fa-map-marker-alt"></i> find the store</a>
-                </div>
-                <p>|</p>
-                <div style="padding-right: 1rem; padding-left: 1rem;">
-                    <a href="#">sign in</a>
-                </div>
+    <div class="container-fluid header img-responsive bg-dark">
+        <div class="row float-right" style="padding-right: 10rem;">
+            <div style="padding-right: 1rem;">
+                <a href="#"><i class="fas fa-map-marker-alt"></i> find the store</a>
             </div>
-            <div class="row" style="padding-left: 10rem">
-                <div class="col-2">
-                    <a href="trang-chu.html">
-                        <img src="images/bieu-tuong.png" alt="bieu-tuong" height="100px" width="100px"
-                            class="bieu-tuong">
-                    </a>
-                </div>
-                <div class="col-10" style="padding-top: 3rem">
-                    <nav class="navbar navbar-expand-md bg-muted navbar-dark" style="font-size: 1.5rem;">
-                        <!-- Toggler/collapsibe Button -->
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#collapsibleNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+            <p>|</p>
+            <div style="padding-right: 1rem; padding-left: 1rem;">
+                <a href="signin.html">sign in</a>
+            </div>
+        </div>
+        <div class="row" style="padding-left: 10rem">
+            <div class="col-2">
+                <a href="trang-chu.html">
+                    <img src="images/bieu-tuong.png" alt="bieu-tuong" height="100px" width="100px" class="bieu-tuong">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-sm bg-muted navbar-dark justify-content-center">
+                    <!-- Toggler/collapsibe Button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <!-- Navbar links -->
-                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="story.html">câu chuyện thương hiệu</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="storyofcoffee.html">Chuyện cà phê</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
-                                        data-toggle="dropdown">thực
-                                        đơn</a>
-                                    <div class="dropdown-menu bg-dark">
-                                        <a class="dropdown-item" href="thuc-don-do-uong.html" style="color:white">menu
-                                            đồ
-                                            uống</a>
-                                        <a class="dropdown-item" href="thuc-don-do-an.html" style="color:white">menu đồ
-                                            ăn</a>
-                                        <a class="dropdown-item" href="thuc-don-ban-le.html" style="color:white">bán lẻ
-                                        </a>
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar"
+                        style="font-size: 1.5rem;">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="story.html">câu chuyện thương hiệu |
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="storyofcoffee.html">Chuyện cà phê |</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">thực
+                                    đơn</a>
+                                <div class="dropdown-menu bg-dark">
+                                    <a class="dropdown-item" href="thuc-don-do-uong.html" style="color:white">menu
+                                        đồ
+                                        uống</a>
+                                    <a class="dropdown-item" href="thuc-don-do-an.html" style="color:white">menu đồ
+                                        ăn</a>
+                                    <a class="dropdown-item" href="thuc-don-ban-le.html" style="color:white">bán
+                                        lẻ</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cua-hang.html">| Cửa hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--phan noi dung-->
+    <div class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 liststicker">
+                    <ul class="list-unstyled">
+                        <li><a class="menu_scroll_link" href="#mon_noi_bat">món nổi bật</a></li>
+                        <li><a class="menu_scroll_link" href="#ca_phe_phin">cà phê phin</a></li>
+                        <li><a class="menu_scroll_link" href="#espresso">espresso</a></li>
+                        <li><a class="menu_scroll_link" href="#tra_va_macchiato">trà và macchiato</a></li>
+                        <li><a class="menu_scroll_link" href="#coffee_bean">coffee bean</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-10">
+                    
+                        <div class="container">
+                            <h3 style='padding-top: 3rem; padding-left: 3rem' class="text-success"  id="mon_noi_bat" >những đồ uống tiêu
+                                biểu:</h3>
+                            <div class="card-deck" style="padding-top: 3rem;">
+                                <div class="card" style="width: 20rem">
+                                    <img class="card-img-top" src="./images/latte2.jpg" alt="latte"
+                                        style="width:100%; height:15rem">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Latte</h4>
+                                        <p class="card-text">là sự kết hợp tuyệt vời giữa espreso với sữa nóng!</p>
+                                        <p class="cost">65,000 Đ</p>
+                                        <a href="#" class="btn btn-primary">mua ngay</a>
+                                        <a href="#" class="btn btn-primary float-right">tìm hiểu thêm</a>
                                     </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="cua-hang.html">Cửa hàng</a>
-                                </li>
-                            </ul>
+                                </div>
+                                <div class="card" style="width: 20rem">
+                                    <img class="card-img-top" src="images/cafe-den.jpg" alt="den"
+                                        style="width:100%; height:15rem">
+                                    <div class="card-body">
+                                        <h4 class="card-title">milk coffee</h4>
+                                        <p class="card-text">hương vị mạnh và đặc trưng của cà phê Việt Nam!</p>
+                                        <p class="cost">39,000 Đ</p>
+                                        <a href="#" class="btn btn-primary">mua ngay</a>
+                                        <a href="#" class="btn btn-primary float-right">tìm hiểu thêm</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 20rem">
+                                    <img class="card-img-top" src="images/egg-coffee-2.jpg" alt="egg-coffee"
+                                        style="width:100%; height:15rem">
+                                    <div class="card-body">
+                                        <h4 class="card-title">egg coffee</h4>
+                                        <p class="card-text">cà phê đặc trưng của Hà Nội, sự hòa quyện giữa trứng và cà
+                                            phê.</p>
+                                        <p class="cost">55,000 Đ</p>
+                                        <a href="#" class="btn btn-primary">mua ngay</a>
+                                        <a href="#" class="btn btn-primary float-right">tìm hiểu thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-deck" style="padding-top: 3rem;">
+                                <div class="card" style="width: 20rem">
+                                    <img class="card-img-top" src="./images/sua-chua-deo.jpg" alt="sua-chua-deo"
+                                        style="width:100%; height:15rem">
+                                    <div class="card-body">
+                                        <h4 class="card-title">freezing yogust with coffee/cacao</h4>
+                                        <p class="card-text">cà phê cùng với sữa chua dẻo</p>
+                                        <p class="cost">65,000 Đ</p>
+                                        <a href="#" class="btn btn-primary">mua ngay</a>
+                                        <a href="#" class="btn btn-primary float-right">tìm hiểu thêm</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 20rem">
+                                    <img class="card-img-top" src="images/Cold-brew-iced-coffee.jpg" alt="cold-brew"
+                                        style="width:100%; height:15rem">
+                                    <div class="card-body">
+                                        <h4 class="card-title">cold brew</h4>
+                                        <p class="card-text">một loại cà phê với cách chiết suất mới, đem lại sự thưởng
+                                            thức mới lạ!</p>
+                                        <p class="cost">55,000 Đ</p>
+                                        <a href="#" class="btn btn-primary">mua ngay</a>
+                                        <a href="#" class="btn btn-primary float-right">tìm hiểu thêm</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 20rem">
+                                    <img class="card-img-top" src="images/coconut-coffee.jpg" alt="coconut-coffee"
+                                        style="width:100%; height:15rem">
+                                    <div class="card-body">
+                                        <h4 class="card-title">coconut coffee</h4>
+                                        <p class="card-text">cảm giác thanh mạt từ dừa đem lại, giải khát mùa hè.</p>
+                                        <p class="cost">45,000 Đ</p>
+                                        <a href="#" class="btn btn-primary">mua ngay</a>
+                                        <a href="#" class="btn btn-primary float-right">tìm hiểu thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="thuc-don-do-uong.html"><button class="btn-primary"></button></a>
                         </div>
-                    </nav>
+                        <!--coffee bean-->
+                        <h3 style='padding-top: 3rem; padding-left: 3rem' class="text-success" id="coffee_bean">coffee bean</h3>
+                        <div class="card-deck" style="padding-top: 3rem;">
+                            <div class="card" style="width: 20rem">
+                                <img class="card-img-top" src="./images/coffee-bean-metal.JPG" alt="cbm"
+                                    style="width:100%; height:15rem">
+                                <div class="card-body">
+                                    <h4 class="card-title">coffee bean metal</h4>
+                                    <p class="cost">65,000 Đ</p>
+                                    <a href="#" class="btn btn-primary">mua ngay</a>
+                                    <a href="#" class="btn btn-primary float-right">tìm hiểu thêm</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem">
+                                <img class="card-img-top" src="./images/coffee_bean_wood.JPG" alt="cbw"
+                                    style="width:100%; height:15rem">
+                                <div class="card-body">
+                                    <h4 class="card-title">coffee bean wood</h4>
+                                    
+                                    <p class="cost">39,000 Đ</p>
+                                    <a href="#" class="btn btn-primary">mua ngay</a>
+                                    <a href="#" class="btn btn-primary float-right">tìm hiểu thêm</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem">
+                                <img class="card-img-top" src="images/coffee_bean_warter.JPG" alt="cbw"
+                                    style="width:100%; height:15rem">
+                                <div class="card-body">
+                                    <h4 class="card-title">coffee bean water</h4>
+                                    
+                                    <p class="cost">55,000 Đ</p>
+                                    <a href="#" class="btn btn-primary">mua ngay</a>
+                                    <a href="#" class="btn btn-primary float-right">tìm hiểu thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!--phần footer-->
-        <div class="container-fluid bg-dark footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="container footer_title">
-                            <div>
-                                <p>flow us in</p>
-                                <a href="https://www.facebook.com/hakacoffee/" target="_blank"><i
-                                        class="fab fa-facebook fa-2x"></i></a>
-                            </div>
-                            <div>
-                                <p>review us in</p>
-                                <a href="https://www.tripadvisor.com.vn/UserReviewEdit-g293924-d10301082-Haka_Coffee_39_Hang_Dau-Hanoi.html"
-                                    target="_blank"><i class="fab fa-tripadvisor fa-2x"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
+    </div>
+    <!--phần footer-->
+    <div class="container-fluid bg-dark footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="container footer_title">
                         <div>
-                            <h3 class="footer_title">hỗ trợ: </h3>
-                            <p class="footer_content">hỗ trợ: 035 969 1998(07:00-21:00)</p>
+                            <p>flow us in</p>
+                            <a href="https://www.facebook.com/hakacoffee/" target="_blank"><i
+                                    class="fab fa-facebook fa-2x"></i></a>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
                         <div>
-                            <h3 class="footer_title">địa chỉ</h3>
-                            <p class="footer_content">
-                                39 Hàng Dầu, phường Lý Thái Tổ<br>
-                                Quận Hoàn Kiếm, thành phố Hà Nội<br>
-                                035 969 1998<br>
-                                hakacoffee@gmail.com
-                            </p>
+                            <p>review us in</p>
+                            <a href="https://www.tripadvisor.com.vn/UserReviewEdit-g293924-d10301082-Haka_Coffee_39_Hang_Dau-Hanoi.html"
+                                target="_blank"><i class="fab fa-tripadvisor fa-2x"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="copy_right">
-                    <p class="footer_content">Copyright <i class="far fa-copyright"></i> 2019 HaKa Coffee. All rights
-                        reserved.</p>
+                <div class="col-sm-4">
+                    <div>
+                        <h3 class="footer_title">hỗ trợ: </h3>
+                        <p class="footer_content">hỗ trợ: 035 969 1998(07:00-21:00)</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <h3 class="footer_title">địa chỉ</h3>
+                        <p class="footer_content">
+                            39 Hàng Dầu, phường Lý Thái Tổ<br>
+                            Quận Hoàn Kiếm, thành phố Hà Nội<br>
+                            035 969 1998<br>
+                            hakacoffee@gmail.com
+                        </p>
+                    </div>
                 </div>
             </div>
+            <div class="copy_right">
+                <p class="footer_content">Copyright <i class="far fa-copyright"></i> 2019 HaKa Coffee. All rights
+                    reserved.</p>
+            </div>
         </div>
+    </div>
     </div>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
